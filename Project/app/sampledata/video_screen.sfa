@@ -1,0 +1,38 @@
+{
+  materials: [
+    {
+      name: 'None',
+      parameters: [
+        {
+          videoTexture: {
+            external_path: 'MISSING_PATH',
+          },
+        },
+        {
+          keyColor: [
+            0,
+            0,
+            0,
+            0,
+          ],
+        },
+        {
+          disableChromaKey: false,
+        },
+      ],
+      source: 'sampledata/material.mat',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/video_screen.obj',
+    name: 'video_screen',
+    recenter: 'root',
+  },
+  version: '0.54:2',
+}
