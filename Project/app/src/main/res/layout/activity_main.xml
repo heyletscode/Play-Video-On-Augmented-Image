@@ -10,6 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/arFragment"
-        android:name="com.heyletscode.sceneformtutorial.CustomArFragment" />
+        android:name="com.example.myapplication.CustomArFragment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
